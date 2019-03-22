@@ -12,8 +12,8 @@
 
 | 질문 | 답변 | 작성자 |
 | :--- | :---: | :---: |
-| ARC(Automatic Reference Counting)는 어느 시점에 작동하나요? | [ARC](/answers/arc.md) | 썽니 |
-| strong, weak, unowned 키워드를 어떤 상황에서 사용하고, 차이는 무엇인가요? | [strong, weak, unowned]() |  |
+| ARC(Automatic Reference Counting)는 어느 시점에 작동하나요? | [ARC](/answers/ARC.md) | 썽니 |
+| strong, weak, unowned 키워드를 어떤 상황에서 사용하고, 차이는 무엇인가요? | [strong, weak, unowned](/answers/Reference.md) |  |
 | 객체 간 순환참조를 발견하는 방법과 해결 방법은? |  |  |
 | Escaping Closure의 개념이 무엇인가요? |  |  |
 | 타입 캐스팅을 할 때 사용하는 키워드인 as, as?, as! 이 셋의 차이는 무엇인가요? |  |  |
