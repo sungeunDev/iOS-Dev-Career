@@ -25,7 +25,7 @@
 | 질문 | 답변 | 작성자 |
 | :--- | :---: | :---: |
 | Frame 과 Bounds 의 차이는 무엇인가요? |  |  |
-| UIViewController클래스내 프로퍼티인Top/BottomLayoutGuide가 iOS11에서 deprecate된 이유와 이를 대체하기위해 어떤것이 생겼을까요? |  |  |
+| Top/BottomLayoutGuide가 iOS11에서 deprecate된 이유와 이를 대체하기위해 어떤것이 생겼을까요? |  |  |
 | UIStackView의 장점은 무엇이라고 생각하시나요? |  |  |
 | Autolayout Constraint의 Priority의 개념이 무엇이고, 어떤상황에 사용하나요? |  |  |
 | Content Hugging Priority의 개념이 무엇이고, 어떤상황에 사용하나요? |  |  |
