@@ -3,8 +3,8 @@
 - iOS 개발 면접 질문을 정리하는 곳입니다. 
 
 #### ㅁ 질문, 답변 작성 방법
-> - 질문의 경우 아래 해당되는 카테도리의 표에 추가해 주세요.
-> - 답변의 경우 [답변 템플릿](/Answer_Template.md)의 형식으로 작성해 주세요.
+> - 질문의 경우 아래 해당되는 카테고리의 표에 추가해 주세요.
+> - 답변의 경우 [답변 템플릿](/Answer_Template.md)의 형식으로 작성해 `/answers` 폴더에 추가해 주세요.
 > - 이미지의 경우 `/images` 폴더에 파일을 넣어주세요.
 
 ## About iOS Dev
@@ -12,7 +12,7 @@
 
 | 질문 | 답변 | 작성자 |
 | :--- | :---: | :---: |
-| ARC(Automatic Reference Counting)는 어느 시점에 작동하나요? | [ARC]() | 썽니 |
+| ARC(Automatic Reference Counting)는 어느 시점에 작동하나요? | [ARC](/answers/arc.md) | 썽니 |
 | strong, weak, unowned 키워드를 어떤 상황에서 사용하고, 차이는 무엇인가요? | [strong, weak, unowned]() |  |
 | 객체 간 순환참조를 발견하는 방법과 해결 방법은? |  |  |
 | Escaping Closure의 개념이 무엇인가요? |  |  |
