@@ -1,6 +1,6 @@
 # 문서명
 | 질문출처 | 작성자 |
-| :--- | :---: | :---: |
+| :--- | :---: |
 | 룩핀 | 썽니 |
 
 ## Question
@@ -40,7 +40,7 @@ func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: Inde
 ## Details
 > 공식 문서와 함께 살펴보기 (SFTD, Straight From the Docs)
 
-1. [Working with Self-Sizing Table View Cells](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/WorkingwithSelf-SizingTableViewCells.html)
+### [1. Working with Self-Sizing Table View Cells](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/WorkingwithSelf-SizingTableViewCells.html)
 
 ![image](/images/self-sizing-tableview-cells-1.png)
 - 오토 레이아웃을 사용하여 셀의 높이를 정의 할 수 있으나 이 방식이 셀 높이를 설정하는 default 값은 아닙니다. 일반적으로 셀의 높이는 tableView delegate의 `tableView : heightForRowAtIndexPath :` 를 사용합니다.
@@ -53,12 +53,12 @@ func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: Inde
 ![image](/images/self-sizing-tableview-cells-4.png)
 - 또한 예상되는 행 높이(estimated row height)를 가능한 한 정확하도록 만드십시오. 시스템은 추정값을 기반으로 스크롤 막대 높이와 같은 항목을 계산합니다. 예상치가 정확할수록 사용자 경험이 원활 해집니다.
 
-2. [UITableViewAutomaticDimension](https://developer.apple.com/documentation/uikit/uitableviewautomaticdimension?language=objc)
+### [2. UITableViewAutomaticDimension](https://developer.apple.com/documentation/uikit/uitableviewautomaticdimension?language=objc)
    
 ![image](/images/automaticDimension.png)
  - 지정된 dimension의 기본 값을 나타내는 상수.
 
-3. [EstimatedRowHeight](https://developer.apple.com/documentation/uikit/uitableview/1614925-estimatedrowheight)
+### [3. EstimatedRowHeight](https://developer.apple.com/documentation/uikit/uitableview/1614925-estimatedrowheight)
   
 ![image](/images/estimatedRowHeight.png)
 - 행 높이를 음수가 아닌 값으로 제공하면 테이블 뷰를 로드하는 성능이 향상 될 수 있습니다.
@@ -66,7 +66,7 @@ func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: Inde
 - 기본값은 `automaticDimension`입니다. 즉, 테이블 뷰는 사용자를 대신하여 사용할 것으로 예상되는 높이를 선택합니다. 값을 0으로 설정하면 테이블 뷰가 각 셀의 실제 높이를 요청하게하는 예상 높이가 비활성화됩니다. 테이블에서 자체 크기 조정 셀을 사용하는 경우이 속성의 값은 0이 아니어야합니다.
 - 추정값을 사용할 때, 테이블 뷰는 스크롤 뷰에서 상속된 `contentOffset` 및 `contentSize` 프로퍼티를 능동적으로 관리합니다. 해당 속성을 직접 읽거나 수정하지 마십시오. 
 
-4. [UITableViewAutomaticDimension](https://developer.apple.com/documentation/uikit/uitableviewdelegate/1614926-tableview)
+### [4. UITableViewAutomaticDimension](https://developer.apple.com/documentation/uikit/uitableviewdelegate/1614926-tableview)
 
 ![image](/images/tableView_estimatedHeightForRowAt.png)
 - 행이 있어야 하는 높이를 추정하는 음수가 아닌 float 값. 추정치가 없을 경우 `automaticDimension`을 반환.
