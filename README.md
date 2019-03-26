@@ -4,7 +4,7 @@
 
 #### ㅁ 질문, 답변 작성 방법
 > - 질문의 경우 아래 해당되는 카테고리의 표에 추가해 주세요.
-> - 답변의 경우 [답변 템플릿](/Answer_Template.md)의 형식으로 작성해 `/answers` 폴더에 추가해 주세요.
+> - 답변의 경우 [답변 템플릿](Answer_Template.md)의 형식으로 작성해 `/answers` 폴더에 추가해 주세요.
 > - 이미지의 경우 `/images` 폴더에 파일을 넣어주세요.
 
 ## About iOS Dev
@@ -12,8 +12,8 @@
 
 | 질문 | 답변 | 작성자 |
 | :--- | :---: | :---: |
-| ARC(Automatic Reference Counting)는 어느 시점에 작동하나요? | [ARC](/answers/arc.md) | 썽니 |
-| strong, weak, unowned 키워드를 어떤 상황에서 사용하고, 차이는 무엇인가요? | [strong, weak, unowned]() |  |
+| ARC(Automatic Reference Counting)는 어느 시점에 작동하나요? | [ARC](answers/arc.md) | 썽니 |
+| strong, weak, unowned 키워드를 어떤 상황에서 사용하고, 차이는 무엇인가요? | [strong, weak, unowned](answers/Reference.md) | 썽니 |
 | 객체 간 순환참조를 발견하는 방법과 해결 방법은? |  |  |
 | Escaping Closure의 개념이 무엇인가요? |  |  |
 | 타입 캐스팅을 할 때 사용하는 키워드인 as, as?, as! 이 셋의 차이는 무엇인가요? |  |  |
@@ -30,7 +30,7 @@
 | Autolayout Constraint의 Priority의 개념이 무엇이고, 어떤상황에 사용하나요? |  |  |
 | Content Hugging Priority의 개념이 무엇이고, 어떤상황에 사용하나요? |  |  |
 | UICollectionViewLayout클래스에 prepare 메소드는 어떤 역할을 하나요? |  |  |
-| UITableView를 구성할때 셀의 컨텐츠에 따라 높이를 설정하고싶다면 어떻게 해야하나요? |  |  |
+| UITableView를 구성할때 셀의 컨텐츠에 따라 높이를 설정하고싶다면 어떻게 해야하나요? | [TableView](answers/TableView_height.md) | 썽니 |
 | StoryBoard가 Git 에서 충돌이 발생했습니다. 어떻게 해결하고 예방 하시겠습니까? |  |  |
 
 ### Test
