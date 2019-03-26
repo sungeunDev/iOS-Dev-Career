@@ -9,11 +9,11 @@
 ## Simple Answer
 1. 각 IndexPath 별로 셀 내 컨텐츠의 높이를 계산하여 `tableView:heightForRowAtIndexPath:` 메서드로 셀의 높이를 지정
 2. `AutomaticDimension`을 통해 셀 높이가 유동적으로 선언한 후, `tableView:estimatedHeightForRowAtIndexPath:` 메서드 혹은 직접 지정을 통해 테이블 뷰의 프로퍼티인 `estimatedRowHieght`를 설정 
-   > - 필수 조건:
-   > 1) 컨텐츠의 오토레이아웃을 설정
-   > 2) heightForRowAtIndexPath 함수를 오버라이딩 해서는 안됨
+  > ㅁ 필수 조건:  
+  > - 컨텐츠의 오토레이아웃을 설정
+  > - heightForRowAtIndexPath 함수를 오버라이딩 해서는 안됨  
 
-   > - 주의: 테이블을 reload 할 때 estimatedRowHeihgt에 따라 스크롤 position이 정해지기 때문에 추정치를 너무 작게 잡으면 테이블을 reload 했을 때 이상한 곳에 스크롤 되는 경우가 발생함.
+  > ㅁ 주의: 테이블을 reload 할 때 estimatedRowHeihgt에 따라 스크롤 position이 정해지기 때문에 추정치를 너무 작게 잡으면 테이블을 reload 했을 때 이상한 곳에 스크롤 되는 경우가 발생함.
 
 #### - Sample Code
 ```
