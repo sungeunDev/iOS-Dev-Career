@@ -51,5 +51,11 @@
 | :--- | :---: | :---: |
 |  |  |  |
 
-## 참고자료
+## 기타 참고 자료
+| 주제 | 답변 | 작성자 |
+| :--- | :---: | :---: |
+| iOS 안에는 뭐가 있을까? | [What's in iOS?](answers/whats_in_ios.md) | 썽니 |
+
+
+## 질문 출처
 - [룩핀 면접질문](https://medium.com/lookpin-engineering/ios-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EB%A9%B4%EC%A0%91-%EC%A7%88%EB%AC%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8-b92350a91c1b) 
