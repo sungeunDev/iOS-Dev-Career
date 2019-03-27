@@ -16,7 +16,7 @@
   > ㅁ 주의: 테이블을 reload 할 때 estimatedRowHeihgt에 따라 스크롤 position이 정해지기 때문에 추정치를 너무 작게 잡으면 테이블을 reload 했을 때 이상한 곳에 스크롤 되는 경우가 발생함.
 
 #### - Sample Code
-```
+``` swift
 var myTableView = UITableView()
 
 // Answer 1)

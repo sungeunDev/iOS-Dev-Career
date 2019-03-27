@@ -12,8 +12,8 @@
 
 | 질문 | 답변 | 작성자 |
 | :--- | :---: | :---: |
-| ARC(Automatic Reference Counting)는 어느 시점에 작동하나요? | [ARC](/answers/ARC.md) | 썽니 |
-| strong, weak, unowned 키워드를 어떤 상황에서 사용하고, 차이는 무엇인가요? | [strong, weak, unowned](/answers/Reference.md) |  |
+| ARC(Automatic Reference Counting)는 어느 시점에 작동하나요? | [ARC](/answers/arc.md) | 썽니 |
+| strong, weak, unowned 키워드를 어떤 상황에서 사용하고, 차이는 무엇인가요? | [strong, weak, unowned](/answers/reference.md) |  |
 | 객체 간 순환참조를 발견하는 방법과 해결 방법은? |  |  |
 | Escaping Closure의 개념이 무엇인가요? |  | 지호 |
 | 타입 캐스팅을 할 때 사용하는 키워드인 as, as?, as! 이 셋의 차이는 무엇인가요? |  |  |
@@ -30,14 +30,14 @@
 | Autolayout Constraint의 Priority의 개념이 무엇이고, 어떤상황에 사용하나요? |  |  |
 | Content Hugging Priority의 개념이 무엇이고, 어떤상황에 사용하나요? |  |  |
 | UICollectionViewLayout클래스에 prepare 메소드는 어떤 역할을 하나요? |  |  |
-| UITableView를 구성할때 셀의 컨텐츠에 따라 높이를 설정하고싶다면 어떻게 해야하나요? | [TableView](answers/TableView_height.md) | 썽니 |
+| UITableView를 구성할때 셀의 컨텐츠에 따라 높이를 설정하고싶다면 어떻게 해야하나요? | [TableView](answers/tableview_height.md) | 썽니 |
 | StoryBoard가 Git 에서 충돌이 발생했습니다. 어떻게 해결하고 예방 하시겠습니까? |  |  |
 
 ### Test
 
 | 질문 | 답변 | 작성자 |
 | :--- | :---: | :---: |
-| 커스텀뷰 클래스 내 Private Method를 테스트 할 수 있는 방법은 무엇이 있나요? | [Test_PrivateMethod](answers/Test_PrivateMethod.md) | 썽니 |
+| 커스텀뷰 클래스 내 Private Method를 테스트 할 수 있는 방법은 무엇이 있나요? | [Unit test](answers/test_privatemethod.md) | 썽니 |
 | UITest를 UnitTest로 대체할 수 있는 방법은 무엇인가요? |  |  |
 | Api서버를 강력하게 의존하는 뷰를 api요청없이 테스트 하는 방법은 무엇이 있나요? |  |  |
 

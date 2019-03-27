@@ -1,2 +1,0 @@
-- 참고 링크
-- [How to Unit Test Private Methods in Swift](https://cocoacasts.com/how-to-unit-test-private-methods-in-swift/)
