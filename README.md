@@ -37,7 +37,7 @@
 
 | 질문 | 답변 | 작성자 |
 | :--- | :---: | :---: |
-| 커스텀뷰 클래스 내 Private Method를 테스트 할 수 있는 방법은 무엇이 있나요? |  |  |
+| 커스텀뷰 클래스 내 Private Method를 테스트 할 수 있는 방법은 무엇이 있나요? | [Test_PrivateMethod](answers/Test_PrivateMethod.md) | 썽니 |
 | UITest를 UnitTest로 대체할 수 있는 방법은 무엇인가요? |  |  |
 | Api서버를 강력하게 의존하는 뷰를 api요청없이 테스트 하는 방법은 무엇이 있나요? |  |  |
 
