@@ -11,7 +11,7 @@
 ## Simple Answer
 
 - 인스턴스의 참조카운트가 절대로 0이 되지 않는 경우. 즉, 두 인스턴스가 서로를 강하게 참조하고 있을 때 순환 참조가 발생함
-- 순환 참조가 발생하면 두 인스턴스는 메모리 상에 계속 존재하기 때문에 memory leak이 발생하는데, Xcode의 메모리 그래프 디버거를 통해 memory leak을 찾아낼 수 있음.
+- 순환 참조가 발생하면 두 인스턴스는 메모리 상에 계속 존재하기 때문에 memory leak이 발생하는데, Xcode의 메모리 그래프 디버거를 통해 memory leak을 찾아낼 수 있음.
 - 해결방법: 인스턴스간 참조 관계를 강한 참조가 아닌 `weak` 또는 `unowned` 참조로 바꿔주어야 함.
   - weak vs. unowned에 대한 정보는 [strong, weak, unowned](reference.md)
 
