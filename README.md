@@ -22,7 +22,10 @@
 | Escaping Closure의 개념이 무엇인가요?                                         |                                                        |        |
 | 타입 캐스팅을 할 때 사용하는 키워드인 as, as?, as! 이 셋의 차이는 무엇인가요? |                                                        |        |
 | Swift에서 Class와 Struct의 차이는 무엇인가요?                                 |  [Class vs Struct](https://github.com/richoh86/iOS-Dev-Career/blob/develop/answers/ClassStruct.md)                                                      | [원석](https://github.com/richoh86/OhWonSeok_iOS_School6)       |
-| 4.1 버전 미만과 최신버전에서의 배열의 메소드인 FlatMap의 차이는 무엇인가요?   |             [flatMap](/answers/flatmap.md)             |  썽니  |
+| 4.1 버전 미만과 최신버전에서의 배열의 메소드인 FlatMap의 차이는 무엇인가요?   |             [flatMap](/answers/flatmap.md)             |  썽니  |   
+| GCD란? |                                                        |        |
+
+
 
 ### Layout
 
@@ -65,4 +68,6 @@
 
 ## 질문 출처
 
-- [룩핀 면접질문](https://medium.com/lookpin-engineering/ios-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EB%A9%B4%EC%A0%91-%EC%A7%88%EB%AC%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8-b92350a91c1b)
+- [룩핀 면접질문](https://medium.com/lookpin-engineering/ios-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EB%A9%B4%EC%A0%91-%EC%A7%88%EB%AC%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8-b92350a91c1b)  
+
+- [JaeSungLee iOS Interviewquestions](https://github.com/JeaSungLEE/iOSInterviewquestions)
